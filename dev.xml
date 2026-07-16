@@ -13,7 +13,7 @@
   <project name="canmv-k230/k230_rtsmart_examples" path="src/rtsmart/examples" remote="github" revision="d0cfd83c1870e134e794a9c01849a32c4e99fd6a" upstream="main" dest-branch="main" groups="sdk" />
   <project name="canmv-k230/mbedtls" path="src/rtsmart/libs/3rd-party/mbedtls/mbedtls" remote="github" revision="a3ff9bce6b1c554a91bb3ced0f83046442a1694c" upstream="canmv_k230" dest-branch="canmv_k230" groups="sdk-common" clone-depth="10" />
   <project name="canmv-k230/micropython" path="src/canmv/micropython" remote="github" revision="0295137e60c0de862c8ee72d81c88d9e57e3973b" upstream="canmv_k230" dest-branch="canmv_k230" groups="canmv-common" />
-  <!-- <project name="canmv-k230/nncase_kmodels_v2_11" path="src/rtsmart/libs/kmodel" remote="github" revision="830f035e8907b89015e15c4a85cf7f59e06c4175" upstream="v2.11.0" dest-branch="v2.11.0" groups="sdk-common" /> -->
+  <project name="canmv-k230/nncase_kmodels_v2_11" path="src/rtsmart/libs/kmodel" remote="github" revision="830f035e8907b89015e15c4a85cf7f59e06c4175" upstream="v2.11.0" dest-branch="v2.11.0" groups="sdk-common" />
   <project name="canmv-k230/opensbi" path="src/opensbi/opensbi" remote="github" revision="ea1ceab9f0af65251e4a5c7d943a1cfa5e9002d6" upstream="main" dest-branch="main" groups="sdk-common" />
   <project name="canmv-k230/ybsdcard" path="src/canmv/resources/ybsdcard" remote="github" revision="c6ce8fab643c8aad22b0db97b9ff1f10d4fd8d94" upstream="master" dest-branch="master" groups="canmv-common" clone-depth="20" />
   <project name="eliben/pycparser" path="src/canmv/port/3rd-party/lv_bindings/pycparser" remote="github" revision="3cf6bf5eb16f5eadd4a058e41596145c407a79ad" groups="canmv-common" clone-depth="1000" />
