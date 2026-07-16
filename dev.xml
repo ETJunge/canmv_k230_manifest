@@ -8,9 +8,9 @@
   <project path="src/uboot/uboot" name="canmv-k230/u-boot" groups="sdk" remote="github" revision="main"/>
   <project path="src/opensbi/opensbi" name="canmv-k230/opensbi" groups="sdk-common" remote="github" revision="main"/>
 
-  <project path="src/rtsmart/rtsmart" name="canmv-k230/rtsmart" groups="sdk" remote="github" revision="main"/>
+  <project path="src/rtsmart/rtsmart" name="canmv-k230/rtsmart" remote="github" revision="8951e68ae33f52fd880226b5502d14019822de60" upstream="canmv_k230" dest-branch="canmv_k230" groups="sdk"/>
   <project path="src/rtsmart/libs" name="canmv-k230/k230_rtsmart_lib" remote="github" revision="2549c9b9a275ac2b882cd465b51c335b59e88e1b" upstream="refs/heads/v2.9.0" dest-branch="refs/heads/v2.9.0" groups="sdk"/>
-  <project path="src/rtsmart/examples" name="canmv-k230/k230_rtsmart_examples" groups="sdk" remote="github" revision="main"/>
+  <project path="src/rtsmart/examples" name="canmv-k230/k230_rtsmart_examples" remote="github" revision="e796eb2102845ac5ebde214caee4df2a2bc50065" upstream="canmv_k230" dest-branch="canmv_k230" groups="sdk"/>
   <project path="src/rtsmart/mpp" name="canmv-k230/mpp" groups="sdk-special" remote="github" revision="main"/>
 
   <project path="src/rtsmart/libs/3rd-party/freetype/freetype" name="freetype/freetype" groups="sdk-common" remote="github" clone-depth="100" revision="1452355de99d22b0cba6ccc17bf5cdf3682ef61e"/>
